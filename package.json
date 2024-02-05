@@ -2,7 +2,10 @@
   "name": "node-template",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "lefthook install",
+    "commit": "git add . && git commit"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
