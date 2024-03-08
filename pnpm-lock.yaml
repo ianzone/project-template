@@ -5,11 +5,19 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  git-cz:
+    specifier: ^4.9.0
+    version: 4.9.0
   lefthook:
     specifier: ^1.6.5
     version: 1.6.5
 
 packages:
+
+  /git-cz@4.9.0:
+    resolution: {integrity: sha512-cSRL8IIOXU7UFLdbziCYqg8f8InwLwqHezkiRHNSph7oZqGv0togId1kMTfKil6gzK0VaSXeVBb4oDl0fQCHiw==}
+    hasBin: true
+    dev: true
 
   /lefthook-darwin-arm64@1.6.5:
     resolution: {integrity: sha512-6x07sbjcJymSoTum8gbR9DVkDlA/3io1bSLNDbHk1UwJ5syPjp0JOQLW96KAuM/jxqnOWX2HUqLD0uQPrZDl8g==}
