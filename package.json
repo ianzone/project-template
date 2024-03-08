@@ -1,24 +1,10 @@
 {
-  "name": "node-template",
-  "version": "1.0.0",
-  "description": "",
   "scripts": {
     "postinstall": "lefthook install",
-    "commit": "git add . && git commit"
+    "commit": "git add . && git commit",
+    "test": "echo 'test passed'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "^18.6.0",
-    "@commitlint/config-conventional": "^18.6.0",
-    "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
-    "lefthook": "^1.6.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "lefthook": "^1.6.5"
   }
 }

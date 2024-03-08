@@ -1,12 +1,6 @@
-# Use this to build commit messages
-prepare-commit-msg:
+#   https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
+pre-commit:
   commands:
-    commitzen:
-      interactive: true
-      run: LEFTHOOK=0 pnpm cz
-
-# Use this to validate commit messages
-commit-msg:
-  commands:
-    commitlint:
-      run: pnpm commitlint --edit {1}
+    test:
+      priority: 1
+      run: pnpm test
