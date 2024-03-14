@@ -4,7 +4,7 @@
 
 # Diagram
 
-https://mermaid.js.org/
+[![mermaid](https://img.shields.io/badge/mermaid-FF3670?logo=mermaid&labelColor=grey)](https://mermaid.js.org)
 
 ```mermaid
 flowchart TB
@@ -22,3 +22,7 @@ flowchart TB
     three --> two
     two --> c2
 ```
+
+# Dependencies
+
+[![renovate](https://img.shields.io/badge/renovate-1A1F6C?logo=renovatebot&labelColor=grey)](https://github.com/renovatebot/renovate)

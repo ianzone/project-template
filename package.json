@@ -6,6 +6,6 @@
   },
   "devDependencies": {
     "git-cz": "^4.9.0",
-    "lefthook": "^1.6.5"
+    "lefthook": "^1.6.6"
   }
 }
