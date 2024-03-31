@@ -26,3 +26,11 @@ flowchart TB
 # Dependencies
 
 [![renovate](https://img.shields.io/badge/renovate-1A1F6C?logo=renovatebot&labelColor=grey)](https://github.com/renovatebot/renovate)
+
+[![dependabot](https://img.shields.io/badge/dependabot-025E8C?logo=dependabot&labelColor=grey)](https://github.com/dependabot)
+
+https://depshub.com/features/
+
+# Commit
+https://juejin.cn/post/7053730154710827045#heading-10
+https://juejin.cn/post/6844904037377114119

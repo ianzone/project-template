@@ -1,6 +1,11 @@
 #   https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
 pre-commit:
+  piped: true
+  follow: true
   commands:
-    test:
+    staged:
       priority: 1
+      run: echo {staged_files}
+    test:
+      priority: 2
       run: pnpm test
