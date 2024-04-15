@@ -1,10 +1,12 @@
 # Badges
 
-[![shields](https://img.shields.io/badge/shields.io-blue?logo=shieldsdotio&labelColor=grey)](https://shields.io/docs/logos)
+[![Shields](https://img.shields.io/badge/shields.io-green?logo=shieldsdotio&labelColor=grey)](https://shields.io/docs/logos)
+
+[![Simple Icons](https://img.shields.io/badge/Simple_Icons-black?logo=simpleicons&labelColor=grey)](https://wasm.simpleicons.org/)
 
 # Diagram
 
-[![mermaid](https://img.shields.io/badge/mermaid-FF3670?logo=mermaid&labelColor=grey)](https://mermaid.js.org)
+[![Mermaid](https://img.shields.io/badge/mermaid-FF3670?logo=mermaid&labelColor=grey)](https://mermaid.js.org)
 
 ```mermaid
 flowchart TB

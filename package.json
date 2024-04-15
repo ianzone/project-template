@@ -1,11 +1,11 @@
 {
   "scripts": {
     "postinstall": "lefthook install",
-    "commit": "git add . && git-cz",
+    "commit": "git add -A && git-cz",
     "test": "echo 'test passed'"
   },
   "devDependencies": {
     "git-cz": "^4.9.0",
-    "lefthook": "^1.6.7"
+    "lefthook": "^1.6.10"
   }
 }

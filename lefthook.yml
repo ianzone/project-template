@@ -5,7 +5,7 @@ pre-commit:
   commands:
     staged:
       priority: 1
-      run: echo {staged_files}
+      run: echo {staged_files} | tr ' ' '\n'
     test:
       priority: 2
       run: pnpm test
