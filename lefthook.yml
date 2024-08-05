@@ -6,6 +6,13 @@ pre-commit:
     staged:
       priority: 1
       run: echo {staged_files} | tr ' ' '\n'
-    test:
+    security:
       priority: 2
-      run: pnpm test
+      run: gitleaks protect --staged
+    lint:
+      priority: 3
+      run: echo 'lint {staged_files}'
+      stage_fixed: true
+    test:
+      priority: 4
+      run: na test
