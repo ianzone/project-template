@@ -8,7 +8,7 @@ pre-commit:
       run: echo {staged_files} | tr ' ' '\n'
     security:
       priority: 2
-      run: gitleaks protect --staged
+      run: gitleaks protect --staged --no-banner
     lint:
       priority: 3
       run: echo 'lint {staged_files}'
