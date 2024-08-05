@@ -15,4 +15,4 @@ pre-commit:
       stage_fixed: true
     test:
       priority: 4
-      run: na test
+      run: na run test
